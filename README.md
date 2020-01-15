@@ -59,7 +59,8 @@ check on the map provides on https://www.thethingsnetwork.org/ the offical site*
 or 
 
 **You have a Local DIY LoRa gateway running that can route data transmitted by arduino LoRa node to cloud**
-You will need Ffollowing items for building A DIY RaspberryPi LoRa Gateway
+
+You will need following items for building A DIY RaspberryPi LoRa Gateway
 
 [Raspberry Pi 3](https://www.amazon.com/Raspberry-Pi-RASPBERRYPI3-MODB-1GB-Model-Motherboard/dp/B01N13X8V1/ref=sxbs_sxwds-stvp?cv_ct_cx=prime+raspberry+pi&keywords=prime+raspberry+pi&pd_rd_i=B01N13X8V1&pd_rd_r=6e87624d-3249-44b0-930a-193955cbce0b&pd_rd_w=Q31Fs&pd_rd_wg=Y8Rzi&pf_rd_p=a6d018ad-f20b-46c9-8920-433972c7d9b7&pf_rd_r=YGWB89HDQDD4655XVVWQ&psc=1&qid=1579114780&s=specialty-aps)
 
@@ -68,7 +69,7 @@ You will need Ffollowing items for building A DIY RaspberryPi LoRa Gateway
 
 
 
-YouTuber **Andreas Spiess** Has provided Very good guide on building such gateways follow his videos for the setup part of gateway.
-[Andreas Spiess Dragino-RaspberryPi LoRa gateway Video](https://www.youtube.com/watch?v=Ya-QlEaonLU&list=PL3XBzmAj53Rkkogh-lti58h_GkhzU1n7U&index=6)
-He has also published many videos on Sensor nodes
+YouTuber **Andreas Spiess** Has provided Very good [video](https://www.youtube.com/watch?v=Ya-QlEaonLU&list=PL3XBzmAj53Rkkogh-lti58h_GkhzU1n7U&index=6) on building such gateways.
+
+
 
