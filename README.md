@@ -33,6 +33,7 @@ LoRa operates on different freqncy for different region use below table for refe
 
 
 ### Dragino Arduino LoRa shield 
+
 A plug and play shield for adding LoRa connectivity to your arduino
 
 [Dragino LoRa shield for Arduno](https://www.amazon.com/Dragino-Compatible-Arduino-Leonardo-Consumption/dp/B07HD1MH3J/ref=sr_1_2?keywords=dragino+Arduino+LoRa+shield&qid=1579113922&sr=8-2)
@@ -48,6 +49,7 @@ https://wiki.dragino.com/index.php?title=Lora_Shield
 
 
 ### LoRa Network / Your Gateway
+
 LoRa devices send data to internet like reguler cellphone devices
 They also need an intermediate device that accepts their sensor data and relay it to a cloud(also known as network server eg: TheThingsNetwork) 
 
@@ -56,8 +58,9 @@ check on the map provides on https://www.thethingsnetwork.org/ the offical site*
 
 or 
 
-** You have a Local DIY LoRa gateway running that can route data transmitted by arduino LoRa node to cloud**
+**You have a Local DIY LoRa gateway running that can route data transmitted by arduino LoRa node to cloud**
 You will need Ffollowing items for building A DIY RaspberryPi LoRa Gateway
+
 [Raspberry Pi 3](https://www.amazon.com/Raspberry-Pi-RASPBERRYPI3-MODB-1GB-Model-Motherboard/dp/B01N13X8V1/ref=sxbs_sxwds-stvp?cv_ct_cx=prime+raspberry+pi&keywords=prime+raspberry+pi&pd_rd_i=B01N13X8V1&pd_rd_r=6e87624d-3249-44b0-930a-193955cbce0b&pd_rd_w=Q31Fs&pd_rd_wg=Y8Rzi&pf_rd_p=a6d018ad-f20b-46c9-8920-433972c7d9b7&pf_rd_r=YGWB89HDQDD4655XVVWQ&psc=1&qid=1579114780&s=specialty-aps)
 
 [Dragino LoRa Raspberry Pi Hat](https://www.amazon.com/Dragino-Raspberry-Temperature-Support-Command/dp/B07HCZMHKZ/ref=sr_1_1_sspa?keywords=raspberry+pi+LoRa+hat&qid=1579114833&s=electronics&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE5OUtFNkdYT1NLTVEmZW5jcnlwdGVkSWQ9QTA0NzU1OTkxQUM3OVNDUlVKUU1IJmVuY3J5cHRlZEFkSWQ9QTAzMTYzODkxMEVEUEwzOFgxUlBEJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
