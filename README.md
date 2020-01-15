@@ -57,3 +57,7 @@ YouTuber **Andreas Spiess** Has provided Very good [video](https://www.youtube.c
 
 
 
+# contributions
+
+[Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic)
+[Semtech core LMIC implementation](https://github.com/Lora-net/LoRaMac-node)
