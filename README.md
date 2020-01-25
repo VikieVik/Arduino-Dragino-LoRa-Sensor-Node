@@ -1,6 +1,6 @@
 # Arduino-Dragino-LoRa-Sensor-Node
 
-This project simplifies LoRawan sensor node dev using Dragino LoRa shield for Ardunino
+This project simplifies LoRawan sensor node development using Dragino LoRa shield for Ardunino
 
 ## Hardware Requirements 
 
@@ -22,9 +22,9 @@ LoRa operates on different freqncy for different region use below table for refe
 
 |   Region   |    Frequency  |
 | ---------- | ------------- |
-| INDIA/EUR  |    868MHz     |
-|   US/AUS   |     915       |
-|   CHINA    |     433       |
+| INDIA/EUR  |    868 MHz    |
+|   US/AUS   |    915 MHz    |
+|   CHINA    |    433 MHz    |
 
 [Detailed Country-Frequency Guide](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country.html)
 
@@ -42,7 +42,7 @@ more on [Offical Dragino site](https://wiki.dragino.com/index.php?title=Lora_Shi
 
 ### LoRa Gateway
 
-LoRa devices send data to internet like reguler cellphone devices
+LoRa devices send data to internet like regular cellphone devices
 They also need an intermediate device that accepts their sensor data and relay it to a cloud(also known as network server eg: [TheThingsNetwork](https://www.thethingsnetwork.org/))
 
 **This guide assumes you either have TheThingsNetwork LoRa gateway coverage in your area that you can 
