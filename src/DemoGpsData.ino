@@ -45,7 +45,7 @@ void os_getDevEui (u1_t* buf) { }
 void os_getDevKey (u1_t* buf) { }
 
 
-
+//Data Buffer
 byte mydata[12] ;
 
 
@@ -227,12 +227,41 @@ void setup() {
 }
 
 void loop() {
-    os_runloop_once();
+    
+  os_runloop_once();
+    
+  //Data
   int32_t lng = 18022210;
   int32_t lat = 12022210;
   int32_t devid = 1;
   int32_t weight = 15;
   
+    /***
+    //Use This Packet Decoder on TTN Server side 
+  function Decoder(bytes, port) {
+  var lng = ((bytes[1]) << 24)
+              + ((bytes[2]) << 16)
+              + ((bytes[3]) << 8)
+              + (bytes[4]);
+  var lat = ((bytes[5]) << 24)
+              + ((bytes[6]) << 16)
+              + ((bytes[7]) << 8)
+              + (bytes[8]);
+  var device_ID = bytes[0];
+  var weight = bytes[9];
+  
+  return{
+    device_ID:device_ID,
+    weight_in_kg:weight/10,
+    lng:lng/1000000,
+    lat:lat/1000000
+  };
+}
+
+***/
+    
+    
+//Data encoding 
 mydata[0] = (byte)(devid & 0X0000000F);
 mydata[1] = (byte) ((lng & 0xFF000000) >> 24 );
 mydata[2] = (byte) ((lng & 0x00FF0000) >> 16 );
