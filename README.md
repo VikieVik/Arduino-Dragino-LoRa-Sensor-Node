@@ -56,7 +56,7 @@ You will need [Raspberry Pi 3](https://www.amazon.com/Raspberry-Pi-RASPBERRYPI3-
 YouTuber **Andreas Spiess** Has provided Very good [video](https://www.youtube.com/watch?v=Ya-QlEaonLU&list=PL3XBzmAj53Rkkogh-lti58h_GkhzU1n7U&index=6) on building such gateways.
 
 **On the TheThingNetwork server side use this packet decoder**
-'''
+```
 function Decoder(bytes, port) {
   var lng = ((bytes[1]) << 24)
               + ((bytes[2]) << 16)
@@ -76,7 +76,7 @@ function Decoder(bytes, port) {
     lat:lat/1000000
   };
 }
-'''
+```
 
 # Contributions
 
